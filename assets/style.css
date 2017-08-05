@@ -1,0 +1,515 @@
+/* Main Backgrounds*/
+
+	body{
+		background-image: url("tiles/organic-tiles.png");
+		width: 100%;
+	
+		/*height: 100%;*/
+		margin: 0px;
+
+
+		/*background-color: black;
+		width: 100%;
+		margin-bottom: 0px;*/
+		/*margin-left: 10%;
+		margin-right: 10%;
+		/*z-index: -2;*/
+	}
+
+	/* Header*/
+
+	.header{
+		z-index: 10;
+		position: absolute;
+		top: 0%;
+		/*left: 0px;*/
+		width: 100%;
+		background-color:#ffffff; 
+		border-color: #ffffff;
+		height: 4em;
+		border-style: solid;
+		border-color: #777777;
+		border-left: 0px;
+		border-right: 0px;
+		border-top: 0px;
+		border-width: 2px;
+		height: 60px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	h1{
+			position: relative;
+			left: 5%;	
+			bottom:10px;
+			background-color: #4aaaa5;
+			width: 500px;
+			float: left;
+			color: #ffffff;
+			text-align: center;
+			height: 100%;
+			font-family: 'Georgia', Times, "Times New Roman", serif;
+			font-size: 3em;
+			font-weight: bolder;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+	h2{
+		color:black;
+		position: relative;	
+		float: right;
+		padding-right: 20px;
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		/*bottom:5px;*/
+		top: 10px;
+		font-size: 1.5em;
+		font-weight: bold;
+	}
+		/* Linking Panel*/
+	.contact_panel{
+		width: 270px;
+		position:relative;
+		right: 150px;
+		top: 150px;
+		float: right;
+		margin-top: 0%;
+		text-align: center;
+		background-color: #ffffff;
+		padding-bottom: 20px;
+		border-style: solid;
+		border-color: #dddddd;
+		border-width: 2px;
+	}
+	h4{
+		font-size: 1.5em;
+		color: #4aaaa5;
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		margin-bottom: 15px;
+		font-weight: bold;
+		margin-top: 15px;
+	}
+	#icon{
+		margin-left: 5px;
+		height: 70px;
+		width: 70px;
+	}
+
+	/* Main Display*/
+	.Main_body{
+		background-color: #ffffff;
+	
+		padding: 10px;
+		width:650px;
+		padding: 40px;
+		margin: 150px 50px 75px 150px;
+		border-style: solid;
+		border-color: #dddddd;
+		border-width: 2px;
+		line-height: 32px;
+		float: left;
+		/*	margin-top: 10%;
+		margin-left: 10%;*/
+		/*margin-bottom: 20px;*/
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+	#yukata{
+		height: 200px;
+		width: 200px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	h3{
+		background-color: white;
+		border-style: solid;
+		color: #4aaaa5;
+		width: 600px;
+		padding-right: 15px;
+		padding-left: 15px;
+		padding-bottom: 10px;
+		text-align: left;
+		font-size: 3em;
+		border-top:0px;
+		/*border-bottom: 10px;*/
+		border-right: 0px;
+		border-left: 0px;
+		border-color: #777777;
+		font-family: 'Georgia', Times, "Times New Roman", serif;
+		border-width: 1px;
+		font-weight: bolder;
+		margin-bottom: 10px;
+	}
+
+	footer{
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		position: relative;
+		text-align: center;
+		background-color: #666666;
+		/*border-top: 10px;
+		border-color: #4aaaa5;
+		border-style: solid;*/
+		width: 100%;
+		height: 50px;
+		border-top:10px;
+		border-bottom: 0px;
+		border-right: 0px;
+		border-left: 0px;
+		border-style: solid;
+		border-color: #4aaaa5;
+		top: 100%;
+		/*bottom: 50%;*/
+		/*margin-bottom: -10px;*/
+		float: left;
+		left: 0px;
+		padding-top: 50px;
+	}
+	#footinmouth{
+		color: white;
+		}
+	form{
+	font-size: 1em;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	}
+	#fpspic{
+	height: 248px;
+	width: 248px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+	/*margin:10px 10px 10px 10px;*/
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;	
+	}
+	#stratpic{
+	height: 250px;
+	width: 250px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+	/*margin:10px 10px 10px 10px;*/
+	}
+	#rpgpic{
+	height: 250px;
+	width: 250px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+	/*margin:10px 10px 10px 10px;*/	
+	}
+	#hangmanpic{
+	height: 248px;
+	width: 248px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	}
+	#hospitalpic{
+	height: 250px;
+	width: 250px;
+	/*padding-top: 5px;
+	padding-bottom: 5px;*/
+	/*margin:10px 10px 0px 10px;*/
+	
+	}
+	.needspace{
+	/*margin: 10px;*/
+	float: left;
+	margin-left: 60px;
+	margin-top: 10px;
+	}
+	h5{
+	background-color: #4aaaa5;
+	color: #ffffff;
+	position: relative;
+	bottom: 75px;
+	z-index: 1;
+	width: 250px;
+	text-align: center;
+	clear: both;
+	/*left: 10px;*/
+	padding-bottom: 5px;
+	padding-top:5px;
+
+	font-family: 'Georgia', Times, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-weight: bold;
+	}
+	.rightpics{
+	/*margin: 10px;*/
+	/*position: relative;*/
+	float: right;
+	margin-top: 10px;
+	margin-right: 60px;
+	}
+	p{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777
+	}
+	a{
+	text-decoration: none;
+	color: #777777;
+	}
+	ul.mistakes{
+	list-style-position:inside;
+	color: #777777;
+	list-style-type: square;
+	}
+	textarea{
+		width: 600px;
+	}
+@media screen and (max-width: 980px) {
+	.header{
+		height: 2.5em;
+		position: fixed;
+		/*z-index: 9;*/
+	}
+	h1{
+		font-size: 2em;
+		width: 350px; 
+		/*top:0%;
+		left: 0%;
+		width: 100%;*/
+	}
+	h2{
+		font-size: 1em;
+		/*position: relative;
+		background-color: white;
+		float: center;
+		width: 100%;
+		font-size: 2em;
+		float: left;
+		text-align: center;
+		top:0%;*/
+		/*bottom: 10px;*/
+	}
+	h4{
+		font-size: 1.5em;
+	}
+	h3{
+
+		width: 280px;
+	}
+	h5{
+		bottom: 85;
+		font-size: 1em;
+		width: 200px;
+
+	}	
+	.Main_body{
+		/*width: 82%;*/
+		width: 450px;
+		margin-top: 148px;
+		margin-bottom:  20px;
+		margin-right: 0px;
+		margin-left: 4.5%;
+		margin-right: 5%;
+		position: relative;
+		/*top:300px;*/
+	}
+	
+		/*bordered pics*/
+		#fpspic{
+			height: 198px;
+			width: 198px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+		}
+		#hangmanpic{
+			height: 198px;
+			width: 198px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+		}
+		/*pictures with no border*/
+		#stratpic{
+			height: 200px;
+			width: 200px;
+		}
+		#rpgpic{
+			height:200px;
+			width: 200px;
+		}
+		#hospitalpic{
+			height: 200px;
+			width: 200px;
+		}
+		.needspace{
+			float: left;
+			margin-left: 10px;
+			margin-top: 5px;
+		}
+		.rightpics{
+			float: right;
+			margin-top: 5px;
+			margin-right: 10px;
+		}
+		.contact_panel{
+			position: fixed;
+			top:20%;
+			z-index: 10;
+			width: 250px;
+			right: 5%;
+			/*margin-bottom: 20px;*/
+		}
+		#icon{
+			height: 50px;
+			width: 50px;
+			margin-left: 10px;
+		}
+		textarea{
+
+			width: 100%;
+			
+		}
+		#yukata{
+			align-content: center;
+			width: 80%;
+			height: 350px;
+			margin-left: 10%;
+
+		}
+		p{
+			clear: both;
+		}
+}
+@media screen and (max-width: 768px) {
+  h1{
+  	/*font-size: 2em;*/
+
+  }
+  h2{
+
+  }
+  h3{
+
+  }
+  h4{
+		text-align: left;
+  }
+  h5{
+  	width: 250px;
+
+  }
+  .Main_body{
+	width: 79%;
+  }
+  .contact_panel{
+			position: relative;
+			top:90%;
+			z-index: 10;
+			width: 90%;
+			right: 5%;
+			margin-bottom: 20px;
+	}
+  #icon{
+			float: left;
+			margin-left: 10px;
+		}
+	/*bordered pics*/
+		#fpspic{
+			height: 248px;
+			width: 248px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+		}
+		#hangmanpic{
+			height:248px;
+			width: 248px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+		}
+		/*pictures with no border*/
+		#stratpic{
+			height: 250px;
+			width: 250px;
+		}
+		#rpgpic{
+			height:250px;
+			width: 250px;
+		}
+		#hospitalpic{
+			height: 250px;
+			width: 250px;
+		}
+		.needspace{
+			float: left;
+			margin-left: 10px;
+			margin-top: 5px;
+		}
+		.rightpics{
+			float: right;
+			margin-top: 5px;
+			margin-right: 10px;
+		}
+} 
+@media screen and (max-width: 640px) {
+ 
+ .header{
+		height: 3em;
+		position: fixed;
+		z-index: 9;
+	}
+	h1{
+		top:0%;
+		left: 0%;
+		width: 100%;
+	}
+	h2{
+		position: relative;
+		background-color: white;
+		float: center;
+		width: 100%;
+		font-size: 2em;
+		float: left;
+		text-align: center;
+		top:0%;
+		/*bottom: 10px;*/
+	}
+	h5{
+		width: 400px;
+		font-size:3em;
+		height: 1em;
+		text-align: center;
+	}
+	/*bordered pics*/
+		#fpspic{
+			height: 398px;
+			width: 398px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+		}
+		#hangmanpic{
+			height:398px;
+			width: 398px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: black;
+		}
+		/*pictures with no border*/
+		#stratpic{
+			height: 400px;
+			width: 400px;
+		}
+		#rpgpic{
+			height:400px;
+			width: 400px;
+		}
+		#hospitalpic{
+			height: 400px;
+			width: 400px;
+		}
+		.needspace{
+			
+			margin-left: 50px;
+			margin-top: 5px;
+		}
+		.rightpics{
+			float: left;
+			margin-top: 5px;
+			margin-left: 50px;
+		}
+}
